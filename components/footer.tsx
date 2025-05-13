@@ -16,7 +16,7 @@ export function Footer() {
         <div className="flex flex-col items-center justify-between space-y-4 py-8 md:h-24 md:flex-row md:space-y-0 md:py-0">
           <div className="flex flex-col items-center space-y-4 md:flex-row md:space-x-4 md:space-y-0">
             <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
-              © 2024 Eshan Roy. Built with Next.js and Tailwind CSS
+              © 2025 Eshan Roy.
             </p>
           </div>
           <div className="flex items-center space-x-4">

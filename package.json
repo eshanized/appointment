@@ -2,14 +2,14 @@
   "name": "nextjs",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://eshanroy.github.io/appointment",
+  "homepage": "https://eshanized.github.io/appointment",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "predeploy": "npm run build && touch out/.nojekyll",
-    "deploy": "gh-pages -d out -b gh-pages -t true"
+    "predeploy": "rm -rf out && npm run build && touch out/.nojekyll",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
